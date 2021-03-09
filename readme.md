@@ -1,34 +1,11 @@
-Task (BackToStock)
+#Back To Stock
 
-Our customer AmazingCo asked to let users to subscribe products that are out of stock.
-The idea is to notify customers when the product back in stock.
+### This app
+- Reads list of subscribed products from users (gets it from db - currently mocked in tests);
+- Compares to the list of products that aare available at the moment (also from db - currently mocked in tests);
+- Creates the list of notifications based on requirements and divides it on 3 parts (High priority, Medium priority, Low priority);
+- Sends the notifications based on priorities mentioned above;
 
-At the same time they have already in place premium users and also some users may have priority for particular product categories.
-Rules:
-- the premium user has a high priority
-- users elder than 70 years old has:
-  - high priority for medical products
-  - medium priority for all categories
-- FIFO for all the rest
-
-
-Criteria (from high to low)
-
-Correctness
-Code quality, readability, error handling, following the best practice
-Unit tests
-Flexibility
-Pattern
-
-Notes:
-you don't need DB
-you don't need UI, API, etc
-you don't worry about concurrency
-focus on domain
-
-You may use:
-java
-Gradle or maven
-
-
-Imagine that this is not a test task, but a real production task# BackToStock
+### In order to the the module working - you can run the tests of the project
+- Users created with random age
+- Lists of products followed by users are generated randomly from list of products
