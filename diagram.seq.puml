@@ -1,0 +1,22 @@
+@startuml
+
+database users as udb
+participant backToStockApp as a
+database products as pdb
+
+a -> udb: read all users
+udb --> a: user[]
+
+a -> pdb: read stock state
+pdb --> a: product[]
+
+a -> pdb: subscribe for product supply
+
+group notify about new products
+    pdb --> a: product[]
+    loop for each product 
+        a -> a: notify user if product in his list
+        a -> a: send notification
+    end
+end
+@enduml

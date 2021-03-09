@@ -1,0 +1,24 @@
+com/company/backinstock/model/ProductCategory.java
+ com.company.backinstock.model.ProductCategory
+com/company/backinstock/model/Product.java
+ com.company.backinstock.model.Product
+com/company/backinstock/service/NotifyJobBuilder.java
+ com.company.backinstock.service.NotifyJobBuilder
+com/company/backinstock/model/User.java
+ com.company.backinstock.model.User
+com/company/backinstock/model/Notification.java
+ com.company.backinstock.model.Notification
+com/company/backinstock/model/UserPriority.java
+ com.company.backinstock.model.UserPriority
+com/company/backinstock/dao/ProductDao.java
+ com.company.backinstock.dao.ProductDao
+com/company/backinstock/service/NotifyService.java
+ com.company.backinstock.service.NotifyService
+com/company/backinstock/App.java
+ com.company.backinstock.App
+com/company/backinstock/service/StockService.java
+ com.company.backinstock.service.StockService
+com/company/backinstock/service/StockServiceImpl.java
+ com.company.backinstock.service.StockServiceImpl
+com/company/backinstock/service/SubscribedProductsService.java
+ com.company.backinstock.service.SubscribedProductsService

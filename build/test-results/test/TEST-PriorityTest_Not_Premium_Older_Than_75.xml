@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PriorityTest_Not_Premium_Older_Than_75" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-09T09:31:55" hostname="Andriis-MacBook-Pro.local" time="0.655">
+  <properties/>
+  <testcase name="PriorityTest_Not_Premium_Older_Than_75()" classname="PriorityTest_Not_Premium_Older_Than_75" time="0.655"/>
+  <system-out><![CDATA[USER:1, ID:891, Age:27, Premium:true, Product:Books501, Category:BOOK, Priority:HIGH
+ USER:1, ID:891, Age:27, Premium:true, Product:Digit.soft891, Category:DIGITAL, Priority:HIGH
+ USER:1, ID:891, Age:27, Premium:true, Product:Digit.soft934, Category:DIGITAL, Priority:HIGH
+ USER:8, ID:949, Age:53, Premium:true, Product:Pills125, Category:MEDICAL, Priority:HIGH
+ USER:8, ID:949, Age:53, Premium:true, Product:Books427, Category:BOOK, Priority:HIGH
+ USER:8, ID:949, Age:53, Premium:true, Product:Digit.soft984, Category:DIGITAL, Priority:HIGH
+ USER:10, ID:451, Age:75, Premium:false, Product:Pills201, Category:MEDICAL, Priority:HIGH
+ USER:3, ID:166, Age:41, Premium:true, Product:Pills254, Category:MEDICAL, Priority:HIGH
+ USER:3, ID:166, Age:41, Premium:true, Product:Digit.soft762, Category:DIGITAL, Priority:HIGH
+ USER:3, ID:166, Age:41, Premium:true, Product:Digit.soft987, Category:DIGITAL, Priority:HIGH
+ USER:4, ID:992, Age:23, Premium:true, Product:Pills63, Category:MEDICAL, Priority:HIGH
+ USER:4, ID:992, Age:23, Premium:true, Product:Books417, Category:BOOK, Priority:HIGH
+ USER:4, ID:992, Age:23, Premium:true, Product:Digit.soft832, Category:DIGITAL, Priority:HIGH
+ USER:6, ID:183, Age:47, Premium:true, Product:Pills4, Category:MEDICAL, Priority:HIGH
+ USER:6, ID:183, Age:47, Premium:true, Product:Books470, Category:BOOK, Priority:HIGH
+ USER:6, ID:183, Age:47, Premium:true, Product:Digit.soft869, Category:DIGITAL, Priority:HIGH
+ USER:2, ID:525, Age:39, Premium:true, Product:Books434, Category:BOOK, Priority:HIGH
+ USER:2, ID:525, Age:39, Premium:true, Product:Books439, Category:BOOK, Priority:HIGH
+ USER:2, ID:525, Age:39, Premium:true, Product:Digit.soft949, Category:DIGITAL, Priority:HIGH
+ USER:9, ID:651, Age:28, Premium:true, Product:Books348, Category:BOOK, Priority:HIGH
+ USER:9, ID:651, Age:28, Premium:true, Product:Books373, Category:BOOK, Priority:HIGH
+ USER:9, ID:651, Age:28, Premium:true, Product:Digit.soft868, Category:DIGITAL, Priority:HIGH
+ USER:5, ID:998, Age:39, Premium:true, Product:Pills115, Category:MEDICAL, Priority:HIGH
+ USER:5, ID:998, Age:39, Premium:true, Product:Pills145, Category:MEDICAL, Priority:HIGH
+ USER:5, ID:998, Age:39, Premium:true, Product:Digit.soft909, Category:DIGITAL, Priority:HIGH
+ USER:7, ID:465, Age:61, Premium:true, Product:Pills237, Category:MEDICAL, Priority:HIGH
+ USER:7, ID:465, Age:61, Premium:true, Product:Digit.soft857, Category:DIGITAL, Priority:HIGH
+ USER:7, ID:465, Age:61, Premium:true, Product:Digit.soft906, Category:DIGITAL, Priority:HIGH
+ USER:10, ID:451, Age:75, Premium:false, Product:Digit.soft849, Category:DIGITAL, Priority:MEDIUM
+ USER:10, ID:451, Age:75, Premium:false, Product:Digit.soft921, Category:DIGITAL, Priority:MEDIUM
+ ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
